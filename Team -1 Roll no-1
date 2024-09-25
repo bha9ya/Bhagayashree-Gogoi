@@ -1,0 +1,17 @@
+//Write appropriate function prototype for the sketelal outlines show below //
+Date-25/9/2024
+#include<stdio.h>
+int funct1(int a,int b);// function prototype //
+main ()
+{
+int a,b,c;
+....
+c=funct1(a,b);
+.......
+}
+int funct1(int x,int y)
+{
+int z;
+z=....;
+return (z);
+}
