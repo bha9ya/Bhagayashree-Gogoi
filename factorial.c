@@ -1,3 +1,6 @@
+/*Assignment 3*/
+/*Date -26/9/2024*/
+
 #include<stdio.h>
 long int factorial(int n)
 {
