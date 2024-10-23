@@ -8,7 +8,8 @@ struct student{
 
 int main() {
     struct student x[5];
-    for (int i = 0; i < 5; i++) {
+    int i;
+    for ( i = 0; i < 5; i++) {
         printf("Enter details for students%d:\n", i + 1);
         printf("Enter Name: ");
         scanf("%s", x[i].name);
@@ -21,7 +22,8 @@ int main() {
 }
  display_student(struct student x[], int n) {
     printf("Student Details:\n");
-    for (int i = 0; i < n; i++) {
+     int i;
+    for ( i = 0; i < n; i++) {
         printf("Student%d: Name: %s, Age: %d, Grade: %s\n", 
                i + 1, x[i].name,x[i].age, x[i].grade);
     }
