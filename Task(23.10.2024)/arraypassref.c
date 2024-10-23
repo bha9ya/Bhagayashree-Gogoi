@@ -28,9 +28,8 @@ int main() {
 void show(struct stud *m) {
     int i;
     printf("Name: %s", m->name);
-    printf("Marks: ");
+    printf("Marks: \n");
     for (i = 0; i < 5; i++) {
-        printf("%.2f ", m->marks[i]);
+        printf("%.2f \n", m->marks[i]);
     }
-    printf("\n");
 }
