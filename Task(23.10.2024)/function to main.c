@@ -1,10 +1,10 @@
-//function to main 
+//function returning value to main 
 
 #include <stdio.h>
 
 struct stud {
     char name[25];
-    float marks[5];
+    float marks[3];
 };
 
 float calculateTotal(struct stud *m);
@@ -17,8 +17,8 @@ int main() {
     printf("Enter student name: ");
     fgets(s1.name, sizeof(s1.name), stdin);
 
-    printf("Enter 5 marks: ");
-    for (i = 0; i < 5; i++) {
+    printf("Enter 3 marks: \n");
+    for (i = 0; i < 3; i++) {
         scanf("%f", &s1.marks[i]);
     }
 
@@ -33,7 +33,7 @@ float calculateTotal(struct stud *m) {
     int i;
     float sum = 0.0;
 
-    for (i = 0; i < 5; i++) {
+    for (i = 0; i < 3; i++) {
         sum += m->marks[i]; 
     }
 
