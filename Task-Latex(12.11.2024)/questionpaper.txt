@@ -1,0 +1,85 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+
+\begin{document}
+\noindent \textbf{Total number of printed pages: 2}
+\begin{center}
+    \textbf{1st SEM MCA} \\
+    \textbf{2024}\\
+    (DECEMBER)\\
+    \textbf{COMPUTER APPLICATION} \\
+    \textbf{Paper : MCA-109 (C Programming)} \\
+    \vspace{0.2cm}
+    \textbf{Full Marks : 60 \\ Pass Marks : 27 \\ Time : Three hours}
+\end{center}
+
+\vspace{0.2cm}
+\begin{center}
+\noindent \textbf{The figures in the margin indicate full marks for the questions.}
+\end{center}
+\vspace{0.5cm}
+
+\section*{Answer the following \hfill 1x5=5}
+
+\begin{enumerate}
+    \item[(a)] Which keyword is used to declare a constant in C?
+    
+    \item[(b)] How is the increment operator written in C?
+    
+    \item[(c)] Give an example of a valid variable name in C.
+    
+    \item[(d)] Write the syntax for a `for` loop in C.
+    
+    \item[(e)] How do you include the standard input-output library in a C program?
+\end{enumerate}
+
+\vspace{0.5cm}
+
+\section*{Answer the following questions \hfill 2x5=10}
+
+\begin{enumerate}
+    \item[(a)] What is the difference between `while` and `do-while` loops in C?
+    
+    \item[(b)] Explain the use of `\#define` preprocessor directive in C with an example.
+    
+    \item[(c)] Write the syntax to declare an array of integers with 10 elements in C.
+    
+    \item[(d)] Describe the use of the `return` statement in C functions.
+    
+    \item[(e)] Explain how to declare a pointer variable in C. Provide an example.
+\end{enumerate}
+
+\vspace{0.5cm}
+
+\section*{Answer any three of the following \hfill 5x3=15}
+
+\begin{enumerate}
+    \item[(a)] Describe the structure of a basic C program, including the `main` function and headers.
+    
+    \item[(b)] Write a C program to calculate the sum of all elements in an integer array.
+    
+    \item[(c)] Explain the concept of `switch` statement in C with a code example.
+    
+    \item[(d)] Write a C program to check if a number is even or odd.
+    
+    \item[(e)] Explain how to define and use functions in C with an example.
+\end{enumerate}
+
+\vspace{0.5cm}
+
+\section*{Answer any three of the following \hfill 10x3=30}
+
+\begin{enumerate}
+    \item[(a)] Write a detailed essay on the advantages and limitations of C programming for system-level development.
+    
+    \item[(b)] Explain the different data types available in C, including their sizes and uses.
+    
+    \item[(c)] Describe pointers in C in detail. Write a program to demonstrate how to swap two variables using pointers.
+    
+    \item[(d)] Explain the process of dynamic memory allocation in C with examples of `malloc` and `free`.
+    
+    \item[(e)] Discuss file handling in C. Write a program to read and write data to a file.
+\end{enumerate}
+
+\end{document}
